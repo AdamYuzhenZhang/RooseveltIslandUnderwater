@@ -55,8 +55,6 @@ MonoBehaviour:
   fogStartDistance: 0
   fogDistance: 0
   fogDensity: 0.0005
-  fogAttenuationDistance: 207
-  fogRelativeFogHeight: 971
   weatherSkyMod:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
@@ -146,7 +144,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 4
   volumeLightIntensity: 0.01
   shadowIntensityMod: -0.2
-  heightFogDensity: 0.39
+  heightFogDensity: 0.5
   SkyFogHeight: 0.45
   skyFogStart: 0
   SkyFogIntensity: 1
@@ -173,8 +171,8 @@ MonoBehaviour:
   AutumnNightAmbient: {fileID: 0}
   WinterDayAmbient: {fileID: 0}
   WinterNightAmbient: {fileID: 0}
-  blurDistance: 1500
-  blurIntensity: 0.25
+  blurDistance: 1000
+  blurIntensity: 0.4
   blurSkyIntensity: 4
   sceneExposureMod: 0.8
   skyExposureMod: 0.8

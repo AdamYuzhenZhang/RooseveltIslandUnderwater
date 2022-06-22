@@ -15,8 +15,8 @@ public class WaterLevelController : MonoBehaviour
     public float moveDownSpeed = 0.1f;
 
     private Color normalColor = new Color(0.75f, 0.75f, 0.85f, 0.5f);
-    private Color underwaterColor = new Color(0.25f, 0.25f, 0.4f, 0.2f);
-    
+    private Color underwaterColor = new Color(0.25f, 0.25f, 0.4f, 0.22f);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -89,6 +89,20 @@ public class WaterLevelController : MonoBehaviour
             // above water
             RenderSettings.fogColor = normalColor;
             RenderSettings.fogDensity = 0.0001f;
+        }
+    }
+    
+    public void MoveWaterToLevel(float newWaterLevel)
+    {
+        if (waterLevel.transform.position.y < newWaterLevel)
+        {
+            maxLevel = newWaterLevel;
+            moveWaterUp();
+        }
+        else
+        {
+            minLevel = newWaterLevel;
+            moveWaterDown();
         }
     }
 }
