@@ -34,10 +34,10 @@ public class ScriptController : MonoBehaviour
             {
                 case 0:
                     // Water rising high quickly
-                    SetMaxWaterHeight(0.42f);
+                    SetMaxWaterHeight(0.19f);
                     WaterUp_Quick();
                     changeWaveAmplitude = true;
-                    targetWaveAmplitude = 0.8f;
+                    targetWaveAmplitude = 0.6f;
                     //waterMat.SetFloat("_WaveAmplitude", 0.7f);
 
                     break;
@@ -51,6 +51,7 @@ public class ScriptController : MonoBehaviour
                     break;
                 case 100:
                     // Move Car
+                    waterLevelController.setMoveUpSpeed(0.004f);
                     car1.enabled = true;
                     break;
                 case 2:
@@ -65,7 +66,7 @@ public class ScriptController : MonoBehaviour
                 case 101:
                     // Water rising medium
                     changeWaveAmplitude = true;
-                    targetWaveAmplitude = 0.8f;
+                    targetWaveAmplitude = 0.9f;
                     //waterMat.SetFloat("_WaveAmplitude", 0.8f);
                     break;
                 case 3:
@@ -155,6 +156,13 @@ public class ScriptController : MonoBehaviour
                     changeWaveAmplitude = true;
                     targetWaveAmplitude = 0.3f;
                     break;
+                case 105:
+                    // water back to normal
+                    waterText.text = "Current\nWater Level\n0 inch";
+                    indicatorWaterRoot.transform.localScale = new Vector3(0.9f, 0.4f, 0.9f);
+                    SetMinWaterHeight(0f);
+                    WaterDown_Slow();
+                    break;
                 case 11:
                     // Tidal Flooding
                     waterMat.SetFloat("_FoamSize", 3.6f);
@@ -236,22 +244,22 @@ public class ScriptController : MonoBehaviour
     }
     private void WaterUp_Quick()
     {
-        waterLevelController.setMoveUpSpeed(0.012f);
+        waterLevelController.setMoveUpSpeed(0.009f);
         waterLevelController.moveWaterUp();
     }
     private void WaterDown_Quick()
     {
-        waterLevelController.setMoveDownSpeed(0.012f);
+        waterLevelController.setMoveDownSpeed(0.006f);
         waterLevelController.moveWaterDown();
     }
     private void WaterUp_Slow()
     {
-        waterLevelController.setMoveUpSpeed(0.006f);
+        waterLevelController.setMoveUpSpeed(0.002f);
         waterLevelController.moveWaterUp();
     }
     private void WaterDown_Slow()
     {
-        waterLevelController.setMoveDownSpeed(0.008f);
+        waterLevelController.setMoveDownSpeed(0.004f);
         waterLevelController.moveWaterDown();
     }
 
