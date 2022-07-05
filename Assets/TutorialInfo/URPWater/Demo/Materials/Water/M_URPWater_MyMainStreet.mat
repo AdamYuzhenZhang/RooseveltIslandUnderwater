@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_URPWater_Demo_Gerstner
+  m_Name: M_URPWater_MyMainStreet
   m_Shader: {fileID: 4800000, guid: 206e4b0fd7976c742b851eef70622872, type: 3}
   m_ShaderKeywords: _CAPS_SCATTERING_ON _CAUSTICSMODE_2D _COLORMODE_COLORS _DISPLACEMENTMODE_GERSTNER
     _DISPLACEMENT_MASK_ON _DOUBLE_SIDED_ON _EDGEFADE_ON _FOAM_ON _FOAM_RIPPLE_ON
@@ -208,10 +208,10 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _Tess: 1
-    - _WaveAmplitude: 0.9028118
+    - _WaveAmplitude: 0.081
     - _WaveCount: 3
     - _WaveEffectsBoost: 0.17
-    - _WaveNormal: 0.668
+    - _WaveNormal: 0.229
     - _WorkflowMode: 1
     - _WorldUV: 1
     - _ZWrite: 1

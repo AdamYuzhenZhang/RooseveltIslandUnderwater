@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Road 02 Lite
+  m_Shader: {fileID: 4800000, guid: fb116a64ca8f3c5499dbdfd2a34e8670, type: 3}
+  m_ShaderKeywords: _CHANNELSELECTIONMASK_RED _DETAILWAVE_ON _EMISSION _MAINWAVE_ON
+    _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP _SOURCEMASK_DETAILMASK _SOURCE_METALLICALPHA
+    _USEAOFROMMAINPROPERTIES_ON _USEEMISSIONFROMMAINPROPERTIES_ON _USEMAINALBEDOMAP_ON
+    _USEMAINNORMALMAPASNORMALDIRECTION_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: e03240bebc43fc947a6c3f6ce50589e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 9e190624982442b459701b8952839876, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 7da9299edd8bc9044ada172d9d7631c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7da9299edd8bc9044ada172d9d7631c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 1f5d298325759e34fac3def1ee0040f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 09d7c6c66e5f2c24b8179ada9201af36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 4aa9dd429c198f148866a558a55662ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureAtlasNormal:
+        m_Texture: {fileID: 2800000, guid: a6e49a766b3568e4eb66b720e93376e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AoIntensity: 1
+    - _BlendMainNormal: 0
+    - _BlurReflection: 0
+    - _Brightness: 1
+    - _BumpScale: 1.22
+    - _ContrastDetailMap: 6.19
+    - _DetailBrightness: 1
+    - _DetailSaturation: 0
+    - _Distortion: 0.117
+    - _DuplicateTextureAtlasNormal: 0
+    - _EmissionIntensity: 1
+    - _ExcludeMask: 0
+    - _FBDetailsNormal: 45
+    - _FlipBTilingNormal: 6
+    - _Glossiness: 0.5
+    - _Glossiness2: 0.95
+    - _Glossiness3: 0.955
+    - _IntensityMask: 1
+    - _IntensityScaleNormal1: 0.3
+    - _IntensityScaleNormal2: 0.3
+    - _InvertABaseColor: 0
+    - _InvertMask: 0
+    - _Metallic: 0
+    - _Metallic2: 0
+    - _Metallic3: 0
+    - _Parallax: 0
+    - _ReflectionIntensity: 0.3
+    - _Saturation: 0
+    - _ScaleFBDetailsNormal: 1
+    - _Source: 0
+    - _SourceMask: 0
+    - _SpreadDetailMap: 0.436
+    - _UseAoFromMainProperties: 1
+    - _UseEmissionFromMainProperties: 1
+    - _UseMainAlbedoMap: 1
+    - _UseMainBaseColorMap: 1
+    - _VisualizeMask: 0
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorCubemap: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorCubemap1: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetFBDetailsNormal: {r: 1.5, g: 1.5, b: 0, a: 0}
+    - _XColumnsYRowsZSpeedWStrartFrame: {r: 8, g: 8, b: 0.25, a: 0}
+    - _XColumnsYRowsZSpeedWStrartFrameNormal: {r: 8, g: 8, b: 0.25, a: 0}
