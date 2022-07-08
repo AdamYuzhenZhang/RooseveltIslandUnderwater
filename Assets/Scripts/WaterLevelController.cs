@@ -17,6 +17,11 @@ public class WaterLevelController : MonoBehaviour
     private Color normalColor = new Color(0.75f, 0.75f, 0.85f, 0.5f);
     private Color underwaterColor = new Color(0.15f, 0.15f, 0.25f, 0.2f);
 
+    [SerializeField] private GameObject bubblePartical;
+    private bool bubbleReleased;
+    private bool bubbleDeep;
+    private bool bubbleDiscarded;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -82,13 +87,29 @@ public class WaterLevelController : MonoBehaviour
         {
             // underwater
             RenderSettings.fogColor = underwaterColor;
-            RenderSettings.fogDensity = 0.002f + (waterLevel.transform.position.y - camera.transform.position.y) / 1000f;
+            RenderSettings.fogDensity = 0.003f + (waterLevel.transform.position.y - camera.transform.position.y) / 1000f;
+            if (!bubbleReleased)
+            {
+                bubblePartical.SetActive(true);
+                bubbleReleased = true;
+            }
         }
         else
         {
             // above water
             RenderSettings.fogColor = normalColor;
             RenderSettings.fogDensity = 0.0001f;
+        }
+
+        if (bubbleReleased && camera.transform.position.y < waterLevel.transform.position.y - 0.2f)
+        {
+            bubbleDeep = true;
+        }
+
+        if (!bubbleDiscarded && bubbleDeep && camera.transform.position.y > waterLevel.transform.position.y - 0.1f)
+        {
+            bubbleDiscarded = true;
+            bubblePartical.SetActive(false);
         }
     }
     

@@ -10,8 +10,8 @@ Material:
   m_Name: M_URPWater_MyMainStreet
   m_Shader: {fileID: 4800000, guid: 206e4b0fd7976c742b851eef70622872, type: 3}
   m_ShaderKeywords: _CAPS_SCATTERING_ON _CAUSTICSMODE_2D _COLORMODE_COLORS _DISPLACEMENTMODE_GERSTNER
-    _DISPLACEMENT_MASK_ON _DOUBLE_SIDED_ON _EDGEFADE_ON _FOAM_ON _FOAM_RIPPLE_ON
-    _FOAM_WHITECAPS_ON _NORMALSMODE_SINGLE _REFLECTIONMODE_PROBES _WORLD_UV
+    _DISPLACEMENT_MASK_ON _EDGEFADE_ON _FOAM_ON _FOAM_WHITECAPS_ON _NORMALSMODE_SINGLE
+    _REFLECTIONMODE_PROBES _WORLD_UV
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -138,11 +138,11 @@ Material:
     - _ClearCoatSmoothness: 0
     - _ColorMode: 0
     - _Cull: 2
-    - _CullMode: 0
+    - _CullMode: 2
     - _CutOff: 0.5
     - _Cutoff: 0.5
     - _DepthEnd: 6
-    - _DepthStart: -2
+    - _DepthStart: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DispMask: 1
@@ -150,14 +150,14 @@ Material:
     - _Distortion: 32
     - _DistortionFar: 32
     - _DistortionNear: 64
-    - _DoubleSided: 1
+    - _DoubleSided: 0
     - _DstBlend: 0
     - _DynamicDisplacement: 2
     - _DynamicEffects: 0
     - _DynamicFoam: 1
     - _DynamicNormal: 3
     - _EdgeFade: 1
-    - _EdgeSize: 3
+    - _EdgeSize: 0.2
     - _EnvironmentReflections: 1
     - _FlowIntensity: 0.12
     - _FlowSpeed: 10
@@ -169,8 +169,8 @@ Material:
     - _FoamRippleDistance: 0.31
     - _FoamRippleSize: 1.46
     - _FoamRippleSpeed: -1
-    - _FoamRipples: 1
-    - _FoamSize: 3.6
+    - _FoamRipples: 0
+    - _FoamSize: 1
     - _FoamWhiteCaps: 1
     - _GerstnerSpeedA: -1
     - _GerstnerSpeedB: -1
@@ -191,12 +191,12 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ReflectionDistortion: 0.161
-    - _ReflectionFresnel: 14.02
-    - _ReflectionFresnelNormal: 0.157
-    - _ReflectionIntensity: 1
+    - _ReflectionDistortion: 0.13
+    - _ReflectionFresnel: 9.75
+    - _ReflectionFresnelNormal: 0.205
+    - _ReflectionIntensity: 0.685
     - _ReflectionMode: 2
-    - _ReflectionRoughness: 0.197
+    - _ReflectionRoughness: 0.18
     - _Scattering: 0
     - _ScatteringIntensity: 1
     - _ScatteringRangeMax: 2
@@ -208,10 +208,10 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _Tess: 1
-    - _WaveAmplitude: 0.081
+    - _WaveAmplitude: 0.476
     - _WaveCount: 3
     - _WaveEffectsBoost: 0.17
-    - _WaveNormal: 0.229
+    - _WaveNormal: 0.109
     - _WorkflowMode: 1
     - _WorldUV: 1
     - _ZWrite: 1
@@ -222,15 +222,15 @@ Material:
     - _CausticsSpeed: {r: 1, g: 1, b: -0.2, a: -0.33}
     - _CausticsSpeed3D: {r: 1, g: 1, b: 1, a: 1}
     - _CausticsTiling: {r: 0.2, g: 0.2, b: 0.3, a: 0.3}
-    - _Color: {r: 0.4119412, g: 0.4517791, b: 0.4716981, a: 1}
-    - _DepthColor: {r: 0.26966894, g: 0.29387683, b: 0.3301887, a: 1}
+    - _Color: {r: 0.33855462, g: 0.37404495, b: 0.3962264, a: 1}
+    - _DepthColor: {r: 0.2513223, g: 0.2713218, b: 0.31132078, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0.459467, g: 0.5039755, b: 0.5377358, a: 1}
     - _FoamTiling: {r: 1, g: 1, b: 1, a: 1}
-    - _GerstnerWaveA: {r: 0.93482566, g: -0.35510698, b: 1.62, a: 15.77}
-    - _GerstnerWaveB: {r: 0.9966374, g: -0.081938505, b: 0.42, a: 5.5}
-    - _GerstnerWaveC: {r: 0.5863724, g: -0.8100416, b: 0.8, a: 6.94}
+    - _GerstnerWaveA: {r: 0.93482566, g: -0.35510698, b: 0.8, a: 1}
+    - _GerstnerWaveB: {r: 0.9966374, g: -0.081938505, b: 0.2, a: 0.6}
+    - _GerstnerWaveC: {r: 0.5863724, g: -0.8100416, b: 0.6, a: 0.8}
     - _GerstnerWaveD: {r: 1, g: 0, b: 0.05, a: 4}
     - _NormalMapASpeeds: {r: 0.2, g: 0.2, b: -0.33, a: -0.4}
     - _NormalMapATilings: {r: 2, g: 2, b: 1.5, a: 1.5}
