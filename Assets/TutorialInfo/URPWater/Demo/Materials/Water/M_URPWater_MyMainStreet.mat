@@ -157,7 +157,7 @@ Material:
     - _DynamicFoam: 1
     - _DynamicNormal: 3
     - _EdgeFade: 1
-    - _EdgeSize: 0.2
+    - _EdgeSize: 0.3
     - _EnvironmentReflections: 1
     - _FlowIntensity: 0.12
     - _FlowSpeed: 10
@@ -165,12 +165,12 @@ Material:
     - _FoamCapsIntensity: 1.1
     - _FoamCapsRangeMax: 1.4712497
     - _FoamCapsRangeMin: 0.4029492
-    - _FoamDistortion: 0
+    - _FoamDistortion: 0.05
     - _FoamRippleDistance: 0.31
     - _FoamRippleSize: 1.46
     - _FoamRippleSpeed: -1
     - _FoamRipples: 0
-    - _FoamSize: 1
+    - _FoamSize: 1.4
     - _FoamWhiteCaps: 1
     - _GerstnerSpeedA: -1
     - _GerstnerSpeedB: -1
@@ -208,7 +208,7 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _Tess: 1
-    - _WaveAmplitude: 0.476
+    - _WaveAmplitude: 0.567
     - _WaveCount: 3
     - _WaveEffectsBoost: 0.17
     - _WaveNormal: 0.109

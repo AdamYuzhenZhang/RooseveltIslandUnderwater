@@ -14,6 +14,7 @@ public class ScriptController : MonoBehaviour
     public CinemachineDollyCart car1;
     public CinemachineDollyCart car2;
     public CinemachineDollyCart car3;
+    public CinemachineDollyCart tree;
 
     private float targetWaveAmplitude;
     private float currentWaveAmplitude = 0.2f;
@@ -215,6 +216,10 @@ public class ScriptController : MonoBehaviour
                     ChangeIndicatorYear(2072);
                     SetMinWaterHeight(0.12f);
                     WaterDown_Slow();
+                    break;
+                case 666:
+                    //Log start moving
+                    tree.enabled = true;
                     break;
             }
         }
