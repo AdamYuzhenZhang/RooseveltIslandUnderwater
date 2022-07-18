@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 1762cce2a24ec924eb29f44e9cf33ab2
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00057-texture
+    second: {fileID: 2800000, guid: 8c2b0965096aa09439ac13c047604f5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00071-texture
+    second: {fileID: 2800000, guid: 85b55a31af9ed884fa3c5affb2554f4b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00072-texture
+    second: {fileID: 2800000, guid: 49c5b9fec14ea4946be5a92031c2e83b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00078-texture
+    second: {fileID: 2800000, guid: b0413ff3753a76f44ad0f5e89e76b9c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00079-texture
+    second: {fileID: 2800000, guid: ff152d604fadb324bbcc9036b14dbd77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00080-texture
+    second: {fileID: 2800000, guid: 9402b66b36789404caa156c2613a954b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00081-texture
+    second: {fileID: 2800000, guid: 983273336642a7d4a9da2fc08b959560, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00082-texture
+    second: {fileID: 2800000, guid: 98a596a5a8dd2ab45848a4c9cf7fd50a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00083-texture
+    second: {fileID: 2800000, guid: 31d2c6acad84dd646a744afbb3d0a7d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00084-texture
+    second: {fileID: 2800000, guid: 2077db5e6ffd4994d9437f257eef57a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00085-texture
+    second: {fileID: 2800000, guid: c9c99a9242abddc42b57bce9b020b187, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00086-texture
+    second: {fileID: 2800000, guid: 94429266274891b49b1b57499a809800, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00087-texture
+    second: {fileID: 2800000, guid: 92689fff7b473ff4ca094af5dd2fe234, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00088-texture
+    second: {fileID: 2800000, guid: d018fcbef4a1bd544832bed9ef982916, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00089-texture
+    second: {fileID: 2800000, guid: c5bb0b4b040c3fe4b9f969f52d591594, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00090-texture
+    second: {fileID: 2800000, guid: 16680db6cde07a749aa1ae43126c2bde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00091-texture
+    second: {fileID: 2800000, guid: f6c971c32790c20419737e8df762a522, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00093-texture
+    second: {fileID: 2800000, guid: 1ee71e8ad57c5ac4e9166c6ce3ce1a3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00094-texture
+    second: {fileID: 2800000, guid: 0d2758df01d13c24d8e3c869bc182f01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00095-texture
+    second: {fileID: 2800000, guid: 5d12ac0c81f27124cb158d7ab76b367e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00096-texture
+    second: {fileID: 2800000, guid: 9d631518b758f704bb2f14849a4c104f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00097-texture
+    second: {fileID: 2800000, guid: 10e850a3a6d2667428aa17b61fbf3a76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00098-texture
+    second: {fileID: 2800000, guid: d94db48206c471440b7d661a5b03843c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00099-texture
+    second: {fileID: 2800000, guid: e2a03678df9111e48bde1c2933392860, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00100-texture
+    second: {fileID: 2800000, guid: 95918114f87c17043b98c9ff930011f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture1-00107-texture
+    second: {fileID: 2800000, guid: 715c07b7ccce9d34d8208202e7811ca9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00007-texture
+    second: {fileID: 2800000, guid: 80ed73af136c9ae4da8e7ad16bbfdd9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00008-texture
+    second: {fileID: 2800000, guid: 93e127269a35914438a9c6e79ee96e18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00010-texture
+    second: {fileID: 2800000, guid: 57b3bb02acc235f418d25bc4eed647a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00011-texture
+    second: {fileID: 2800000, guid: e3f63eedf41d11643b300853b0e76df6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00012-texture
+    second: {fileID: 2800000, guid: eaf488fbe0c044e46b2ede2e84b79bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00013-texture
+    second: {fileID: 2800000, guid: 47bc48e7c8d98c34c822e512dbf1f7a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00014-texture
+    second: {fileID: 2800000, guid: 75009d71ff17fdf45adaec6faca7ee12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00016-texture
+    second: {fileID: 2800000, guid: 810343b3a25eeff4d80e2fc9c1e2b7c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00020-texture
+    second: {fileID: 2800000, guid: 2778101fa82869b4f97529b81474fd6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00021-texture
+    second: {fileID: 2800000, guid: 6c5e0d686e443df459d11ddf5e3a458d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00022-texture
+    second: {fileID: 2800000, guid: a73f7ef535e7f8645b51f64929da0673, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00023-texture
+    second: {fileID: 2800000, guid: 335d193a0bf5f9c49945c6074ad5f184, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00024-texture
+    second: {fileID: 2800000, guid: 3a4d37cc851514a4c802963cbd62fc0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00025-texture
+    second: {fileID: 2800000, guid: 9c8405bcad2015e489d2309c026d4c97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00026-texture
+    second: {fileID: 2800000, guid: 8ced3c419914e074487664a810065466, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00027-texture
+    second: {fileID: 2800000, guid: b13b8e24da699bd4e97c29f00f3ee273, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00028-texture
+    second: {fileID: 2800000, guid: cb3f9640872baa64392897688408d4dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00031-texture
+    second: {fileID: 2800000, guid: 4f950775bacbe3a448aadff7a9632939, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00032-texture
+    second: {fileID: 2800000, guid: 406a2971f61909e479577f00495f326a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00033-texture
+    second: {fileID: 2800000, guid: 62768b75ebb1f8348a18a4b8c4867044, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00034-texture
+    second: {fileID: 2800000, guid: 36bf146b889413b48af5655d0edc88e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00035-texture
+    second: {fileID: 2800000, guid: 357540c709773e04d9a710db02584fd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00036-texture
+    second: {fileID: 2800000, guid: 3532e4ac1f5a8644cbb7e05e2a3f4ed0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00037-texture
+    second: {fileID: 2800000, guid: 3311d1a5e3453634fb84b43707d2b9a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00038-texture
+    second: {fileID: 2800000, guid: 80b2da9b844dfc645b2f13cdec4c7f7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00041-texture
+    second: {fileID: 2800000, guid: 79d7b76f84b1b464a9fc7dee79d1284a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00042-texture
+    second: {fileID: 2800000, guid: 048df9099d103454f9ce5cb9acb1753d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00044-texture
+    second: {fileID: 2800000, guid: a4cb6e3a00e1eab41afb44260929ef2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00045-texture
+    second: {fileID: 2800000, guid: d0092bc3ec0b91f4b844ec629a49c0fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00046-texture
+    second: {fileID: 2800000, guid: 74566ddc84d0bad4eab6a271c21f727f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00047-texture
+    second: {fileID: 2800000, guid: 497d82c2a6cffa84681858650c2b0b50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00048-texture
+    second: {fileID: 2800000, guid: cb4cc2ab1f979904d96dbe69722362f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00049-texture
+    second: {fileID: 2800000, guid: ca12890d6c447d542a4e6a379e0f458c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00050-texture
+    second: {fileID: 2800000, guid: 1afdf2e2ff4e2fa49a49e22787d5509d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00051-texture
+    second: {fileID: 2800000, guid: d60eaff3e37901a4a9020d3234af53c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00052-texture
+    second: {fileID: 2800000, guid: d8d7ce4042d199c4da6ae02fa6c382bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00053-texture
+    second: {fileID: 2800000, guid: 607848cab6dc74742ad8648be363eefd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00054-texture
+    second: {fileID: 2800000, guid: e6a44f4ed04738542a93d9296bfbd826, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00055-texture
+    second: {fileID: 2800000, guid: 8546d9c47fb379b45a71e898c3d0df6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00057-texture
+    second: {fileID: 2800000, guid: cdebb7c963ab700468f60da6b4c0fe90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00058-texture
+    second: {fileID: 2800000, guid: f280e68cd697f4e42b1a15d34005148d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00059-texture
+    second: {fileID: 2800000, guid: c1536095c29b55a439f891400a30a801, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00062-texture
+    second: {fileID: 2800000, guid: c15526fc753e8674d9eb5ecbecd75635, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00063-texture
+    second: {fileID: 2800000, guid: 065e079f78fa83c4bb73a616f8a5f519, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00064-texture
+    second: {fileID: 2800000, guid: 7b64d4c0de2a1344f9488aaff091c4e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00065-texture
+    second: {fileID: 2800000, guid: c0f0f35de7409c7438cb6c69a35a4f2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00066-texture
+    second: {fileID: 2800000, guid: d60ef15e05d421047a6b6ba6b67c7ab6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00067-texture
+    second: {fileID: 2800000, guid: bc6278b768d337a44bdceaace8baf030, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00068-texture
+    second: {fileID: 2800000, guid: dc6dc04d865a83c47a22ade5aed2a6e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00069-texture
+    second: {fileID: 2800000, guid: 6f66f572241bb1445be7be2d2352ee07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00070-texture
+    second: {fileID: 2800000, guid: d19392e9a6a4d184bb37e1959223b3ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00071-texture
+    second: {fileID: 2800000, guid: f3ddcf32aabf3984fa4e71a31fe9f561, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00072-texture
+    second: {fileID: 2800000, guid: 22ef9b1d1c305f44cb3527cf0dcadafc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00073-texture
+    second: {fileID: 2800000, guid: b0be7e76eef932b4a9828caf2a8f2c9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00074-texture
+    second: {fileID: 2800000, guid: 2a4d3d1139bb6a149aa009ccbbf430d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00075-texture
+    second: {fileID: 2800000, guid: 1a2a7e546abdd004ea2100d48a2d72f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00076-texture
+    second: {fileID: 2800000, guid: 372391130aa176c4cbbb095fcd3e2ac8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00077-texture
+    second: {fileID: 2800000, guid: f312e6fab6f7ab241929692dad3b2e98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00078-texture
+    second: {fileID: 2800000, guid: ec70a068765ee6748a2fa713d6109121, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00083-texture
+    second: {fileID: 2800000, guid: 880b821bef54df843a0987f068bf7143, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00084-texture
+    second: {fileID: 2800000, guid: 02b5ff8798836584ca0d2de18f1bba69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00085-texture
+    second: {fileID: 2800000, guid: 98afde1368cbda34fab56bd728ec0e14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00086-texture
+    second: {fileID: 2800000, guid: 34176fc3a2541f74b9cd16ed4038c5d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00087-texture
+    second: {fileID: 2800000, guid: 9f81760d668918a41889a927a49e5ac2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00088-texture
+    second: {fileID: 2800000, guid: b9a6dd98b8630ce42a85fe919a67551c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00089-texture
+    second: {fileID: 2800000, guid: 83d1dcb9f13da1547b1bd869e58ebb16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00090-texture
+    second: {fileID: 2800000, guid: 31cc0b1f5ddec2c41bb678a033e870c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00091-texture
+    second: {fileID: 2800000, guid: 726b2a2edd2d1994ba95ca0662949923, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00092-texture
+    second: {fileID: 2800000, guid: 719186c7be079dd499ed2dc4802c625b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00103-texture
+    second: {fileID: 2800000, guid: 3aaeea1dc268d4e429c1f1ca1b074f98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00104-texture
+    second: {fileID: 2800000, guid: a29f5d7cf9b0a104b841ef89f2ddea33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00105-texture
+    second: {fileID: 2800000, guid: 3fb663302f112454fae27a7607b24a8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00106-texture
+    second: {fileID: 2800000, guid: 684f1e926a9e4fe448d51ccc78a00ddf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00107-texture
+    second: {fileID: 2800000, guid: ae7dc8a7a18b4fd4fbdce5f578bc52f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00108-texture
+    second: {fileID: 2800000, guid: 099b7db60bb82344f894e07c62d6f356, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: QueensCapture2-00109-texture
+    second: {fileID: 2800000, guid: 4da7a473550372343b0bac5c55ec7d10, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
