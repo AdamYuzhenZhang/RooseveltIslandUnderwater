@@ -9,6 +9,26 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mtl_barramundi_fish
     second: {fileID: 2100000, guid: 851cb05e9f8ff7948b19965fcaad79fb, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7288_barramundi fish_col
+    second: {fileID: 2800000, guid: f6252d1800679a543bad8ae60b384137, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7288_barramundi fish_nml
+    second: {fileID: 2800000, guid: 5b2fc67c6b8b55f4292dd1859d6873a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7288_barramundi fish_occ
+    second: {fileID: 2800000, guid: 0a0fa26ac955f134fb7b53518ff30e21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7288_barramundi fish_spc
+    second: {fileID: 2800000, guid: b3cbc404a1a85fc4aab81f41ffe64f9c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

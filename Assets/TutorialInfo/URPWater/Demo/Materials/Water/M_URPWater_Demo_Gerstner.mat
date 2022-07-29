@@ -170,7 +170,7 @@ Material:
     - _FoamRippleSize: 1.46
     - _FoamRippleSpeed: -1
     - _FoamRipples: 1
-    - _FoamSize: 3.6
+    - _FoamSize: 3.4
     - _FoamWhiteCaps: 1
     - _GerstnerSpeedA: -1
     - _GerstnerSpeedB: -1
@@ -208,7 +208,7 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _Tess: 1
-    - _WaveAmplitude: 0.80316
+    - _WaveAmplitude: 0.21987586
     - _WaveCount: 3
     - _WaveEffectsBoost: 0.17
     - _WaveNormal: 0.668
